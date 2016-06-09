@@ -1,23 +1,53 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="codingmum">
+	<meta name="author" content="Dicky Bagus">
 
-<div class="home">
+	<title>Coding Mum Surabaya</title>
 
-  <h1 class="page-heading">Posts</h1>
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel='stylesheet' type='text/css'>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	<!-- CSS Style -->
+	<link href="css/styles.css">
+</head>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<body>
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">Coding Mum Chapter Surabaya 2016</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="https://github.com/dickybagus/codingmum"><img src="img/icon-github.png" style="border: none;margin: -4px 0;height: 28px;width: 28px;"/>
+				Github Project</a></li>
+			</ul>
+	</div><!--.nav-collapse -->
 </div>
+
+<div class="jumbotron">
+	<div class="container">
+		<div class="row" style="text-align: center">
+			<img src="img/icon-github.png" style="max-height: 140px; border: solid 1 px #666; margin:8px 0 8px 0;"/>
+			<h1 style="margin-bottom: 12px">Coding Mum 2016</h1>
+			<h2 style="margin-bottom: 12px">Chapter Surabaya</h2>
+			<p style="padding-top:0;margin-bottom:40px"><a class="btn btn-yellow btn-xxl" href="#" role="button">Start Now</a></p>
+		</div>
+	</div>
+</div>
+
+
+</body>
