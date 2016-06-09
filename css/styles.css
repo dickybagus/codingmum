@@ -25,8 +25,8 @@ blockquote {
     margin-top: -20px;
     padding-bottom: 0px;
     padding-top: 20px;
-    background-color: #F7DF1E;
-    /*color: #000;*/
+    background-color: #f2aaae;
+    /*color: #000; F7DF1E*/
 }
 
 .jumbotron h1 {
@@ -121,8 +121,8 @@ h2 {
     margin:10px 0;
 }
 
-.btn-yellow {
-    background: #F7DF1E;
+.btn-purple {
+    background: #f2aaae;
     color: #000;
     border: solid 1px #333;
     -moz-box-shadow: none !important;
@@ -130,12 +130,12 @@ h2 {
     box-shadow: none !important;
 }
 
-.btn-yellow:hover, .btn-yellow:focus {
-    background: #f3d909;
+.btn-purple:hover, .btn-purple:focus {
+    background: #e8878c;
     border: solid 1px #000;
 }
 
-.btn-yellow:active {
+.btn-purple:active {
     background: #f8e337;
     border: solid 1px #666;
 }
